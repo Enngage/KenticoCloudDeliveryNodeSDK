@@ -1,0 +1,1 @@
+console.log('All tests were successfull if we got this far');

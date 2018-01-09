@@ -1,0 +1,54 @@
+{
+  "name": "kentico-cloud-delivery-node-sdk",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enngage/KenticoCloudDeliveryNodeSDK"
+  },
+  "author": "richard sustek",
+  "description": "Official Kentico Cloud Delivery SDK for node",
+  "keywords": [
+    "Kentico",
+    "Kentico API",
+    "Kentico SDK",
+    "Kentico Cloud",
+    "Kentico Cloud SDK",
+    "Kentico Cloud Node",
+    "Kentico Cloud Node.js",
+    "Kentico Cloud Delivery",
+    "Kentico Cloud Delivery SDK",
+    "Kentico Delivery",
+    "Kentico Delivery SDK"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "test": "gulp build && node test/nodejs/app && node test/official/node-js/index && node test/test-completed",
+    "build": "gulp build",
+    "prepublishOnly": "npm run build && npm run official-node-examples && node test/test-completed",
+    "new-patch": "npm version patch && npm run update-sdk-info",
+    "new-minor": "npm version minor && npm run update-sdk-info",
+    "new-major": "npm version major && npm run update-sdk-info",
+    "update-sdk-info": "node ./misc/update-sdk-info.js"
+  },
+  "private": false,
+  "dependencies": {
+    "kentico-cloud-delivery-typescript-sdk": "2.3.3"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean": "0.3.2",
+    "gulp-typescript": "3.2.3",
+    "merge2": "1.2.0",
+    "ts-node": "4.1.0",
+    "tslint": "5.8.0",
+    "typescript": "2.6.2"
+  },
+  "main": "dist/index.js",
+  "typings": "definitions/index",
+  "typescript": {
+    "definition": "definitions/index"
+  }
+}
