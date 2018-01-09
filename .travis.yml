@@ -8,5 +8,5 @@ before_script:
 - gulp build
 script: 
 # run 'naive' tests just to make sure they don't error out
-- test
+- npm run test
 
