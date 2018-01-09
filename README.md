@@ -1,5 +1,11 @@
 # Kentico Cloud Delivery Node SDK
 
+[![npm version](https://badge.fury.io/js/kentico-cloud-delivery-node-sdk.svg)](https://www.npmjs.com/package/kentico-cloud-delivery-node-sdk)
+[![Build Status](https://api.travis-ci.org/Enngage/KenticoCloudDeliveryNodeSDK.svg?branch=master)](https://travis-ci.org/Enngage/KenticoCloudDeliveryNodeSDK)
+[![npm](https://img.shields.io/npm/dt/kentico-cloud-delivery-node-sdk.svg)](https://www.npmjs.com/package/kentico-cloud-delivery-node-sdk)
+[![Forums](https://img.shields.io/badge/chat-on%20forums-orange.svg)](https://forums.kenticocloud.com)
+[![Coverage Status](https://coveralls.io/repos/github/Enngage/KenticoCloudDeliveryTypeScriptSDK/badge.svg?branch=master)](https://coveralls.io/github/Enngage/KenticoCloudDeliveryTypeScriptSDK?branch=master)
+
 An official client library for retrieving content from [Kentico Cloud](https://kenticocloud.com/) for Node.js
 
 This library is based on <a href="https://github.com/Enngage/KenticoCloudDeliveryTypeScriptSDK">Kentico Cloud Delivery TypeScript SDK</a>. Visit this SDK for all examples & instructions on how to work with this library.
