@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Enngage/KenticoCloudDeliveryNodeSDK"
+    "url": "git+https://github.com/Enngage/KenticoCloudDeliveryNodeSDK.git"
   },
   "author": "richard sustek",
   "description": "Official Kentico Cloud Delivery SDK for node",
@@ -50,5 +50,13 @@
   "typings": "definitions/index",
   "typescript": {
     "definition": "definitions/index"
+  },
+  "bugs": {
+    "url": "https://github.com/Enngage/KenticoCloudDeliveryNodeSDK/issues"
+  },
+  "homepage": "https://github.com/Enngage/KenticoCloudDeliveryNodeSDK#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
