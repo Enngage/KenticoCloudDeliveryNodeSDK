@@ -4,3 +4,6 @@
 
 // core
 export * from './client/delivery-node-client';
+
+// export everything from original SDK
+export * from 'kentico-cloud-delivery-typescript-sdk';

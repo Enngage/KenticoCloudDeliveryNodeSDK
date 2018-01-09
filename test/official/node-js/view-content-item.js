@@ -1,5 +1,4 @@
-const KenticoCloud = require('kentico-cloud-delivery-typescript-sdk');
-const NodeLib = require('../../../dist');
+const KenticoCloud = require('../../../dist');
 
 class Article extends KenticoCloud.ContentItem {
     constructor() {
@@ -10,7 +9,7 @@ class Article extends KenticoCloud.ContentItem {
 const config = new KenticoCloud.DeliveryClientConfig("e391c776-9d1e-4e1a-8a5a-1c327c2586b6", 
 [ new KenticoCloud.TypeResolver("article", () => new Article()) ]);
 
-const deliveryClient = new NodeLib.DeliveryNodeClient(config);
+const deliveryClient = new KenticoCloud.DeliveryNodeClient(config);
 
 deliveryClient.item('on_roasts')
     .elementsParameter(['title', 'summary', 'post_date', 'teaser_image'])
