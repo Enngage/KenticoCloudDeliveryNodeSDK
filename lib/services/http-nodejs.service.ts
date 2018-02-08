@@ -23,7 +23,6 @@ class ResponseCallback {
 }
 
 export class HttpNodeJsService implements IHttpService {
-
     get(url: string, headers: IHeader[]): Observable<BaseResponse> {
         return this.getDataObservable(url, headers)
             .map((responseCallback: ResponseCallback) => {

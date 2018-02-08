@@ -35,22 +35,20 @@
   },
   "private": false,
   "dependencies": {
-    "kentico-cloud-delivery-typescript-sdk": "2.3.3"
+    "@types/node": "9.4.2",
+    "kentico-cloud-delivery-typescript-sdk": "2.5.0"
   },
   "devDependencies": {
     "gulp": "3.9.1",
-    "gulp-clean": "0.3.2",
-    "gulp-typescript": "3.2.3",
-    "merge2": "1.2.0",
+    "gulp-clean": "0.4.0",
+    "gulp-typescript": "4.0.0",
+    "merge2": "1.2.1",
     "ts-node": "4.1.0",
-    "tslint": "5.8.0",
-    "typescript": "2.6.2"
+    "tslint": "5.9.1",
+    "typescript": "2.7.1"
   },
-  "main": "dist/index.js",
-  "typings": "definitions/index",
-  "typescript": {
-    "definition": "definitions/index"
-  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "bugs": {
     "url": "https://github.com/Enngage/KenticoCloudDeliveryNodeSDK/issues"
   },
