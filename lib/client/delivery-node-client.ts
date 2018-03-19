@@ -1,18 +1,19 @@
 import {
     DeliveryClientConfig,
+    ElementQuery,
     IContentItem,
     IDeliveryClient,
-    MultipleTypeQuery,
-    SingleTypeQuery,
     MultipleItemQuery,
+    MultipleTypeQuery,
+    QueryService,
     SingleItemQuery,
-    TaxonomyQuery,
+    SingleTypeQuery,
     TaxonomiesQuery,
-    ElementQuery,
-    QueryService
+    TaxonomyQuery,
 } from 'kentico-cloud-delivery-typescript-sdk';
-import { HttpNodeJsService } from '../services/http-nodejs.service';
+
 import { packageId, repoHost, version } from '../library-version';
+import { HttpNodeJsService } from '../services/http-nodejs.service';
 
 export class DeliveryNodeClient implements IDeliveryClient {
 

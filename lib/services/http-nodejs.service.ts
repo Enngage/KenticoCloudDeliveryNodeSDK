@@ -1,16 +1,7 @@
-// rxjs observable
-import { Observable } from 'rxjs/Rx';
-
-// nodejs https service
+import { IncomingMessage, OutgoingHttpHeaders } from 'http';
 import * as https from 'https';
-import { RequestOptions } from 'https';
-import { OutgoingHttpHeaders, IncomingMessage } from 'http';
-
-// interfaces
-import { IHttpService, BaseResponse, IHeader } from 'kentico-cloud-delivery-typescript-sdk';
-
-// this URL is used instead of the DOM URL which is not available in node.js environment
-// depending on node version this can vary: https://stackoverflow.com/questions/44738065/uncaught-typeerror-url-is-not-a-constructor-using-whatwg-url-object-support-for
+import { BaseResponse, IHeader, IHttpService } from 'kentico-cloud-delivery-typescript-sdk';
+import { Observable } from 'rxjs/Observable';
 import { URL } from 'url';
 
 class ResponseCallback {
