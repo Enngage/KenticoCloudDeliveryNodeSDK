@@ -10,6 +10,10 @@ An official client library for retrieving content from [Kentico Cloud](https://k
 
 This library is based on <a href="https://github.com/Enngage/KenticoCloudDeliveryTypeScriptSDK">Kentico Cloud Delivery TypeScript SDK</a>. Visit this SDK for all examples & instructions on how to work with this library.
 
+## Install package
+
+- Use `npm i kentico-cloud-delivery-node-sdk` to install via npm.
+
 ## Scripts
 
 - Use `npm test` to run all tests.
